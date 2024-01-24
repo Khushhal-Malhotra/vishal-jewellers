@@ -19,9 +19,8 @@ const Map = () => {
         </button>
       </div>
       <iframe
+      className={styles.mapIframe}
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13831.300330170745!2d73.8725625!3d29.9269375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3917b50e147b2c61%3A0x62f987df6b36f9e!2sVishal%20Jewellers!5e0!3m2!1sen!2sin!4v1705836472533!5m2!1sen!2sin"
-        width="400"
-        height="350"
         style={{ border: 0 }}
         allowFullScreen=""
         loading="lazy"
