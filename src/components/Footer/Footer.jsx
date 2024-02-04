@@ -10,18 +10,18 @@ const Footer = () => {
           <span className={styles.tagline}>JEWELLERS</span>
         </div>
         <nav className={styles.links}>
-        <h5 className={styles.linkTitle}>USEFUL LINKS</h5> 
-          <a className={styles.link} href="#">
-            Home
+        <h5 className={styles.linkTitle}>SOCIAL LINKS</h5> 
+          <a target="_blank" className={styles.link} href="https://www.instagram.com/vishaljewellerssgnr/">
+            Instagram
           </a>
-          <a className={styles.link} href="#">
-            About
+          <a target="_blank" className={styles.link} href="https://www.instagram.com/vishaljewellerssgnr/">
+            Facebook
           </a>
-          <a className={styles.link} href="#">
-            Contact
+          <a target="_blank" className={styles.link} href="https://www.youtube.com/@VishalJewellersSGNR" >
+          Youtube
           </a>
         </nav>
-        <nav className={styles.links}> 
+        {/* <nav className={styles.links}> 
         <h5 className={styles.linkTitle}>EXPLORE</h5>
           <a className={styles.link} href="#">
             Rings
@@ -35,12 +35,12 @@ const Footer = () => {
           <a className={styles.link} href="#">
             Necklaces
           </a>
-        </nav>
+        </nav> */}
         <nav className={styles.links}> <h5 className={styles.linkTitle}>ADDRESS</h5>
-          <a className={styles.link} href="https://maps.app.goo.gl/cifPiyGFvuo4Kbwb6">
+          <a target="_blank" className={styles.link} href="https://maps.app.goo.gl/cifPiyGFvuo4Kbwb6">
           Upper Ground Floor, Under Hotel STAR INN, 06, Swami Dayanand Marg, opposite Chandralok Vaishno Dhaba, Old Dhan Mandi, Sri Ganganagar, Rajasthan 335001
           </a>
-          <a className={styles.link} href="#">
+          <a className={styles.link} href="tel: 9414210148">
           (+91) 94142 10148
           </a>
         </nav>

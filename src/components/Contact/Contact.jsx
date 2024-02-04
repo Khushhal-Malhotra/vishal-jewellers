@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await toast.promise(
-      fetch("https://formsubmit.co/ajax/kanonili@altmails.com", {
+      fetch("https://formsubmit.co/ajax/f57e050dcefb53ee565c6731b72dda82", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -35,15 +35,14 @@ const Contact = () => {
   };
   return (
     <>
-    <div className={styles.container}>
+    <div id="Contact" className={styles.container}>
       <div className={styles.textContainer}>
         <div className={styles.title}>Message Us</div>
         <div className={styles.desc}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id leo
-          tempor, congue justo at, lobortis orci.
+        We’re here to help and answer any question you might have. We look forward to hearing from you 🤗
         </div>
         <div className={styles.links}>
-          <a className={styles.link} href="#">
+          <a className={styles.link} href="mailto:vishal77gupta81@gmail.com">
             {" "}
             <svg
             width="18px"
@@ -72,7 +71,7 @@ const Contact = () => {
             </svg>{" "}
             <span>vishal77gupta81@gmail.com</span>
           </a>
-          <a className={styles.link} href="#">
+          <a className={styles.link} href="tel: 9414210148">
             {" "}
             <svg
               fill="#000000"
