@@ -1,7 +1,7 @@
 .container {
   width: 100vw;
   min-height: calc(100vh - 80px);
-  background-image: url("/hero.webp");
+  background-image: url("/hero-2.webp");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -20,25 +20,24 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-
 }
 
-.title{
-    font-family: "Cinzel", serif;
-    font-size: 65px; 
-    font-weight: 400;
-    line-height: 1;
-    text-transform: uppercase;
+.title {
+  font-family: "Cinzel", serif;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
-.desc{
-    width: 70%;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.8;
-    color: #000000b3;
-    margin-bottom: 12px;
+.desc {
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #000000b3;
+  margin-bottom: 12px;
 }
 
 .btn {
@@ -52,10 +51,10 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1;
-  transition: background-color 0.3s ease-in-out , color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: black;
   color: white;
 }
@@ -63,7 +62,7 @@
 @media screen and (max-width: 640px) {
   .container {
     background-position-y: 35%;
-    background-image: url("/hero-m.webp");
+    background-image: url("/hero-m2.webp");
     min-height: 65vh;
     display: flex;
     align-items: flex-start;
@@ -78,11 +77,14 @@
     font-size: 13px;
   }
   .title {
-  width: 50vw;
-  font-size: 30px;
+    width: 50vw;
+    font-size: 30px;
   }
-  .desc{
+  .desc {
     width: 50vw;
     font-size: 13px;
-}
+  }
+  .btn {
+    padding: 12px 10px;
+  }
 }
